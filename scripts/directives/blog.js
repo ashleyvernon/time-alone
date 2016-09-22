@@ -8,23 +8,38 @@ function blogDirective() {
 		replace: true,
 		scope: {
 			// blog: '@'   /// this means that its expecting a string
-		}
-		controllerAs:
+		},
+		controllerAs: 'blogCtrl',
 		controller: ['$http', function($http){
 			var vm = this;
 			vm.test = 'this is a test';
-  			vm.blogs = [];
+  			vm.blogs = {};
 
 			// initialize data
-			getBlogs();
+
+			$http({
+				method: 'GET',
+				url: "data/blog.json"
+			}).then(onBlogSuccess, onError)
+
+			function onBlogSuccess(response){
+				console.log('request for blog data', response.data);
+				vm.blogs = response.data;
+			}
+
+			function onError(error) {
+				console.log('There was an error', error);
+			}
+			// getBlogs();
 
 			// implementations
-			function getBlogs() {
-				BlogService.query().then(function(data){
-					console.log('here\'s the blog data in the controller', data);
-					vm.blogs = data;
-				});
-			}
+
+			// function getBlogs() {
+			// 	BlogService.query().then(function(data){
+			// 		console.log('here\'s the blog data in the controller', data);
+			// 		vm.blogs = data;
+			// 	});
+			// }
 		}]
 	};
 
