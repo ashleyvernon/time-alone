@@ -13,7 +13,7 @@ function blogDirective() {
 		controller: ['$http', function($http){
 			var vm = this;
 			vm.test = 'this is a test';
-  			vm.blogs = {};
+  			// vm.blogs = {};
 
 			// initialize data
 
@@ -32,7 +32,6 @@ function blogDirective() {
 			}
 			// getBlogs();
 
-			// implementations
 
 			// function getBlogs() {
 			// 	BlogService.query().then(function(data){
