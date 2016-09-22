@@ -1,1 +1,1 @@
-angular.module('blogApp', []);
+angular.module('blogApp', ['ngAnimate', 'ngSanitize', 'ui.bootstrap']);
