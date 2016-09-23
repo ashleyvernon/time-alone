@@ -11,10 +11,10 @@ function config ($routeProvider, $locationProvider) {
 		controllerAs: 'indexCtrl',
 		controller: 'IndexController'
     })
-	.when('/:id', {
-		templateUrl: '/templates/blog.html',
-		controllerAs: 'indexCtrl',
-		controller: 'IndexController'
+	.when('/blogs/:id', {
+		templateUrl: '/templates/blog-show.html',
+		controllerAs: 'blogShowCtrl',
+		controller: 'BlogShowController'
 	})
     .otherwise({
 		redirectTo: '/'
