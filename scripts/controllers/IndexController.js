@@ -23,13 +23,5 @@ function IndexController($http) {
 	function onError(error) {
 		console.log('There was an error', error);
 	}
-	// getBlogs();
 
-
-	// function getBlogs() {
-	// 	BlogService.query().then(function(data){
-	// 		console.log('here\'s the blog data in the controller', data);
-	// 		vm.blogs = data;
-	// 	});
-	// }
 }
