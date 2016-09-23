@@ -1,12 +1,13 @@
-<div class="card">
-	<h4 class="blog-title">{{blog}}</h4>
-<!-- 	<ul class="dynamic-grid" angular-grid="pics" grid-width="300" gutter-size="10" angular-grid-id="gallery" refresh-on-img-load="false" >
-		<li data-ng-repeat="pic in pics" class="grid">
-			<img src="{{pic.media.m}}" class="grid-img" data-actual-width = "{{pic.actualWidth}}"  data-actual-height="{{pic.actualHeight}}" />
-		</li>
-	</ul> -->
-	
-	<p> {{blogCtrl.blogs.entries[0].content}} </p>
-	<img ng-src="{{blogCtrl.blogs.image.src}}" />
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 card" ng-repeat="blog in indexCtrl.blogs">
+	<!-- <h4 class="blog-title">{{blogs}}</h4> -->
 
+	
+	<p> {{blog.comments[0].body}} </p>
+	<img ng-src="{{blog.image}}" />
+	<p>"this fucking sucks!"</p>
+	<p> {{blog.likes}} </p>
+		</div>
+	</div>
 </div>
