@@ -1,5 +1,5 @@
 img {
-	width: 60%;
+	width: 90%;
 	text-align: center;
 }
 
@@ -19,3 +19,7 @@ a {
 footer {
 	text-align: center;
 }
+
+body {
+	font-family: avenir;
+}	

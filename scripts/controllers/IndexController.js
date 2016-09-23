@@ -6,9 +6,6 @@ IndexController.$inject = ['$http'];
 
 function IndexController($http) {
 	var vm = this;
-	vm.test = 'this is a test';
-
-	// initialize data
 
 	$http({
 		method: 'GET',

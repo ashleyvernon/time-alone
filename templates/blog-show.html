@@ -1,14 +1,17 @@
-<h2>Pictures &amp; Random Thoughts</h2>
+<h2>Scattered Thoughts</h2>
 <br>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
 
-	
-			<p> /blogs/{{blogShowCtrl.blog.title}} </p>
+	<h3><a ng-href="{{blog.id}}">{{blog.title}}</a></h3>
 
-			<img ng-src="{{blogShowCtrl.blog.image}}" />
+			<p>{{blogShowCtrl.blogs.title}} </p>
+
+			<img ng-src="{{blogShowCtrl.blog.id.image}}" />
+
 			<p> {{blog.likes}} </p>
+
 			<p>{{blogShowCtrl.blog.comments[0].body}}</p>
 
 

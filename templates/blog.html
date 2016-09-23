@@ -1,15 +1,15 @@
-<h2>Pictures &amp; Random Thoughts</h2>
+<h2>Scattered Thoughts</h2>
 <br>
 <div class="container">
 	<div class="row">
-		<div class="col-md-4 card" ng-repeat="blog in indexCtrl.blogs">
+		<div class="col-md-3 card" ng-repeat="blog in indexCtrl.blogs">
 
 			<h3><a ng-href="/blogs/{{blog.id}}">{{blog.title}}</a></h3>
 
 		<center><img ng-src="{{blog.image}}"/></center>
 		<p> {{blog.body[0]}} </p>
-		<p> {{blog.likes}} </p>
 
+		<button class="fa fa-heart" ng-click="post.likes = post.likes+1"><span class="heart">♥︎</span> {{post.likes}}</button> 
 
 
 
