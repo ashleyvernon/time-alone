@@ -1,9 +1,9 @@
 [	
 	{
-		"id": 1,
-		"title": "Blog Post One",
+		"id": 0,
+		"title": "Weekend Warriors",
 		"body": [
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur."
+			"Three girls, one black lab, 45lb backpacks, and 14.5 miles of pure bliss."
 		],
 		"author": "Ashley Vernon",
 		"comments": [
@@ -13,12 +13,13 @@
 			}
 		],
 		"likes": "0",
-		"image": "http://i.imgur.com/W2UAph5.jpg"
+		"image": "https://scontent-sjc2-1.xx.fbcdn.net/t31.0-8/13495434_10154467955317122_4936228320811785340_o.jpg"
 	},
 	{
-		"title": "Blog Post One",
+		"id": 1,
+		"title": "Pure Bliss",
 		"body": [
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur."
+			"Loon Lake, one of the many beauties Desolation Wilderness has to offer."
 		],
 		"author": "Ashley Vernon",
 		"comments": [
@@ -28,6 +29,166 @@
 			}
 		],
 		"likes": "0",
-		"image": "http://i.imgur.com/W2UAph5.jpg"
+		"image": "http://i.imgur.com/jM3FP0q.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Bonsai Rock",
+		"body": [
+			"My favorite time of the year to go to Tahoe is the summer. It's so warm and beautiful!"
+		],
+		"author": "Ashley Vernon",
+		"comments": [
+			{
+				"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+				"author": "Sera Bak"
+			}
+		],
+		"likes": "0",
+		"image": "https://scontent-sjc2-1.xx.fbcdn.net/t31.0-8/13653461_10154557563232122_8705201563303078712_o.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Kore Tulum",
+		"body": [
+			"I hope you still feel small when you stand beside the ocean. I know I do!"
+		],
+		"author": "Ashley Vernon",
+		"comments": [
+			{
+				"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+				"author": "Sera Bak"
+			}
+		],
+		"likes": "0",
+		"image": "http://i.imgur.com/tzcz8bu.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Reflection",
+		"body": [
+			"There's nothing more beautiful than your own reflection. Look inside your heart!"
+		],
+		"author": "Ashley Vernon",
+		"comments": [
+			{
+				"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+				"author": "Sera Bak"
+			}
+		],
+		"likes": "0",
+		"image": "http://i.imgur.com/tkW88Mj.jpg"
+	},
+	{
+	"id": 5,
+	"title": "Chinatown",
+	"body": [
+		"Don't forget to look up, even in the hustle and bustle."
+	],
+	"author": "Ashley Vernon",
+	"comments": [
+		{
+			"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+			"author": "Sera Bak"
+		}
+	],
+	"likes": "0",
+	"image": "https://scontent-sjc2-1.xx.fbcdn.net/t31.0-8/12888501_10154238987312122_6705625723431613352_o.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Grace Cathedral",
+		"body": [
+			"I had never experienced yoga until I experienced it here beside 800 other people."
+		],
+		"author": "Ashley Vernon",
+		"comments": [
+			{
+				"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+				"author": "Sera Bak"
+			}
+		],
+		"likes": "0",
+		"image": "http://i.imgur.com/W2UAph5.jpg?2"
+	},
+	{
+	"id": 7,
+	"title": "Eagle Lake",
+	"body": [
+		"A quick steep 1 mile hike to this lake, made it that much more enjoyable!"
+	],
+	"author": "Ashley Vernon",
+	"comments": [
+		{
+			"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+			"author": "Sera Bak"
+		}
+	],
+	"likes": "0",
+	"image": "https://scontent-sjc2-1.xx.fbcdn.net/t31.0-8/11896283_10153710106852122_2429348327896664842_o.jpg"
+	},
+	{
+	"id": 8,
+	"title": "Highway 1",
+	"body": [
+		"A spontaneous trip down the coastline lead me to one of my most cherished sunsets."
+	],
+	"author": "Ashley Vernon",
+	"comments": [
+		{
+			"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+			"author": "Sera Bak"
+		}
+	],
+	"likes": "0",
+	"image": "https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/12718158_10154099118247122_5388916849152214734_n.jpg?oh=714358f91e3349b6ea5888be3fd90275&oe=587FAFFC"
+	},
+	{
+	"id": 9,
+	"title": "Kite",
+	"body": [
+		"When was the last time you flew a kite?  I flew one just a few months ago :)"
+	],
+	"author": "Ashley Vernon",
+	"comments": [
+		{
+			"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+			"author": "Sera Bak"
+		}
+	],
+	"likes": "0",
+	"image": "http://i.imgur.com/cvPBnKP.jpg"
+	},
+	{
+	"id": 10,
+	"title": "Columbia Tower",
+	"body": [
+		"View from the women's bathroom in tallest building in Seattle, WA."
+	],
+	"author": "Ashley Vernon",
+	"comments": [
+		{
+			"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+			"author": "Sera Bak"
+		}
+	],
+	"likes": "0",
+	"image": "http://i.imgur.com/EnOqz1t.jpg"
+	},
+	{
+	"id": 11,
+	"title": "Yosemite, CA",
+	"body": [
+		"A girl and her backpack.  That's all I need to survive! and maybe a laptop..."
+	],
+	"author": "Ashley Vernon",
+	"comments": [
+		{
+			"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+			"author": "Sera Bak"
+		}
+	],
+	"likes": "0",
+	"image": "https://scontent-sjc2-1.xx.fbcdn.net/t31.0-8/12983328_10154292590697122_2617403472497879073_o.jpg"
 	}
 ]
