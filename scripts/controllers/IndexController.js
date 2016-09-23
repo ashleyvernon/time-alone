@@ -12,6 +12,8 @@ function IndexController($http) {
 		url: "data/blog.json"
 	}).then(onIndexSuccess, onError)
 
+
+
 	function onIndexSuccess(response){
 		console.log('request for blog data', response);
 		vm.blogs = response.data;

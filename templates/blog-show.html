@@ -1,18 +1,20 @@
-<h2>Scattered Thoughts</h2>
+<h2>MyGram</h2>
 <br>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
 
-	<h3><a ng-href="{{blog.id}}">{{blog.title}}</a></h3>
+		<a ng-href="/"><h4>Home</h4></a>
 
-			<p>{{blogShowCtrl.blogs.title}} </p>
+		<center><h3>{{blogShowCtrl.blog.title}}</h3></center>
 
-			<img ng-src="{{blogShowCtrl.blog.id.image}}" />
+			<!-- <p>{{blogShowCtrl.blog.comments[0].body}}</p> -->
 
-			<p> {{blog.likes}} </p>
+			<img ng-src="{{blogShowCtrl.blog.image}}" />
 
-			<p>{{blogShowCtrl.blog.comments[0].body}}</p>
+			<!-- <p> {{blog.likes}} </p> -->
+
+			<p>{{blogShowCtrl.blog.body[0]}}</p>
 
 
 		</div>

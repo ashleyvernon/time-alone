@@ -1,17 +1,17 @@
-<h2>Scattered Thoughts</h2>
+<br>
+<h2>MyGram</h2>
 <br>
 <div class="container">
 	<div class="row">
 		<div class="col-md-3 card" ng-repeat="blog in indexCtrl.blogs">
 
-			<h3><a ng-href="/blogs/{{blog.id}}">{{blog.title}}</a></h3>
+			<h4><a ng-href="/blogs/{{blog.id}}">{{blog.title}}</a></h4>
 
-		<center><img ng-src="{{blog.image}}"/></center>
-		<p> {{blog.body[0]}} </p>
+				<center><img ng-src="{{blog.image}}"/></center>
+				<p> {{blog.body[0]}} </p>
 
-		<button class="fa fa-heart" ng-click="post.likes = post.likes+1"><span class="heart">♥︎</span> {{post.likes}}</button> 
-
-
+				<button class="fa fa-heart" ng-click="post.likes = post.likes+1">Likes<span class="heart">♥︎</span> {{post.likes}}</button> 
+				
 
 		</div>
 	</div>
