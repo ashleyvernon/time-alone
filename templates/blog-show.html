@@ -1,13 +1,17 @@
+<h2>Pictures &amp; Random Thoughts</h2>
+<br>
 <div class="container">
 	<div class="row">
-		<div class="col-md-4 card" ng-repeat="blog in indexCtrl.blogs">
-	<!-- <h4 class="blog-title">{{blogs}}</h4> -->
+		<div class="col-md-12">
 
 	
-	<p> {{blog.comments[0].body}} </p>
-	<img ng-src="{{blog.image}}" />
-	<p>"this fucking sucks!"</p>
-	<p> {{blog.likes}} </p>
+			<p> /blogs/{{blogShowCtrl.blog.title}} </p>
+
+			<img ng-src="{{blogShowCtrl.blog.image}}" />
+			<p> {{blog.likes}} </p>
+			<p>{{blogShowCtrl.blog.comments[0].body}}</p>
+
+
 		</div>
 	</div>
 </div>
