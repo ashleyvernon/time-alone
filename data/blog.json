@@ -1,16 +1,33 @@
-{
-	"entries": [
-		{
-			"content": "hello"
-		},
-		{
-			"content": "world"
-		},
-		{
-			"content": ""
-		}
-	],
-	"image": {
-		"src": "http://i.imgur.com/W2UAph5.jpg"
+[	
+	{
+		"id": 1,
+		"title": "Blog Post One",
+		"body": [
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur."
+		],
+		"author": "Ashley Vernon",
+		"comments": [
+			{
+				"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+				"author": "Sera Bak"
+			}
+		],
+		"likes": "0",
+		"image": "http://i.imgur.com/W2UAph5.jpg"
+	},
+	{
+		"title": "Blog Post One",
+		"body": [
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur."
+		],
+		"author": "Ashley Vernon",
+		"comments": [
+			{
+				"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti quae, neque libero voluptate maiores ullam unde voluptatem assumenda velit dolores impedit quis qui! Neque, cupiditate labore nulla? Atque, tenetur.",
+				"author": "Sera Bak"
+			}
+		],
+		"likes": "0",
+		"image": "http://i.imgur.com/W2UAph5.jpg"
 	}
-}
+]
